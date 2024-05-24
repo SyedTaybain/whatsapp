@@ -40,6 +40,7 @@ class _chatDetailState extends State<chatDetail> {
           Expanded(child: totalChat()),
           Container(
             alignment: Alignment.bottomCenter,
+
             child: Padding(
               padding:  EdgeInsets.all(20.0),
               child: Row(
