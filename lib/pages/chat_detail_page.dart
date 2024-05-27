@@ -57,7 +57,6 @@ class _chatDetailState extends State<chatDetail> {
                         borderSide: BorderSide(color: Colors.grey,width: 1)
                     ),
                       hintText: "type a message",
-
                     ),
                   )),
                 ],
