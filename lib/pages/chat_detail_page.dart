@@ -44,7 +44,8 @@ class _chatDetailState extends State<chatDetail> {
               padding:  EdgeInsets.all(20.0),
               child: Row(
                 children: [
-                  Flexible(child: TextFormField(
+                  Flexible(
+                    child: TextFormField(
                     minLines: 1,
                     maxLines: 5,
                     decoration: InputDecoration(
@@ -58,7 +59,8 @@ class _chatDetailState extends State<chatDetail> {
                     ),
                       hintText: "type a message",
                     ),
-                  )),
+                    ),
+                  ),
                 ],
               ),
             ),
