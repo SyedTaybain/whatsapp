@@ -14,7 +14,6 @@ class _chatsPageState extends State<chatsPage> {
   @override
   Widget build(BuildContext context) {
     return Container(
-
       child: ListView.builder(
         itemCount: chatsData.length,
           itemBuilder: (context, i)=>Column(
@@ -23,7 +22,6 @@ class _chatsPageState extends State<chatsPage> {
                 height: 10,
               ),
               ListTile(
-
                 leading: CircleAvatar(
                   backgroundColor: Colors.grey,
                   backgroundImage: AssetImage(
@@ -40,20 +38,10 @@ class _chatsPageState extends State<chatsPage> {
                 onTap: (){
                   Navigator.push(context, MaterialPageRoute(builder: (context) => chatDetail(),  ));
                 },
-
-
               ),
-
-
             ],
-
           ),
-
-
       ),
-
     );
-
   }
-
 }

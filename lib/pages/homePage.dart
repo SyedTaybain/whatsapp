@@ -41,9 +41,14 @@ class _homePageState extends State<homePage>
           tabs: topTabs,
         ),
       ),
+
+
       body: TabBarView(
+
         controller: _tabController,
+
         children: [
+
           Text("camera"),
           chatsPage(),
           statusPage(),

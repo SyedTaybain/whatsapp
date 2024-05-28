@@ -14,15 +14,18 @@ class _statusPageState extends State<statusPage> {
     return Column(
       children: [
         ListTile(
-
           leading: CircleAvatar(
             backgroundColor: Colors.grey,
             backgroundImage: AssetImage(
                 'images/noOne.jpg'
             ),
           ),
+
+
           title: Text("My status",
+
             style: TextStyle(fontWeight: FontWeight.bold),),
+
           subtitle: Text(
             "Tap to add status update",
             style: TextStyle(color: Colors.grey),
@@ -39,13 +42,13 @@ class _statusPageState extends State<statusPage> {
               fontWeight: FontWeight.bold
             ),),
           ),),
-
         Flexible(
           child: ListView.builder(
               itemCount: statusData.length,
               itemBuilder: (context , i)=>Column(
                 children: [
                   ListTile(
+
                     leading: CircleAvatar(
                       backgroundColor: Colors.grey,
                       backgroundImage: AssetImage(
