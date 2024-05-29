@@ -16,23 +16,40 @@ class _callPageState extends State<callPage> {
           itemBuilder: (context, i)=>Column(
             children: [
               Divider(
+
+
                 height: 10,
               ),
               ListTile(
 
+
+
                 leading: CircleAvatar(
+
                   backgroundColor: Colors.grey,
+
                   backgroundImage: AssetImage(
+
                       callData[i].avatar ?? 'images/noOne.jpg'
+
                   ),
+
                 ),
+
                 title: Text(callData[i].name,style: TextStyle(fontWeight: FontWeight.bold),),
+
                 subtitle:Row(
+
                   children: [
+
                     callData[i].callType,
+
                     Text(
+
                       callData[i].time,
+
                       style: TextStyle(
+
                           color: Colors.grey,
                           fontSize: 12),
                     ),

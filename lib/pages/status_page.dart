@@ -48,7 +48,6 @@ class _statusPageState extends State<statusPage> {
               itemBuilder: (context , i)=>Column(
                 children: [
                   ListTile(
-
                     leading: CircleAvatar(
                       backgroundColor: Colors.grey,
                       backgroundImage: AssetImage(
@@ -60,8 +59,6 @@ class _statusPageState extends State<statusPage> {
                       statusData[i].time,
                       style: TextStyle(color: Colors.grey),
                     ),
-
-
                   ),
                   Divider(height: 10,)
                 ],

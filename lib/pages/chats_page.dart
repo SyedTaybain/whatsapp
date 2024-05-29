@@ -21,17 +21,30 @@ class _chatsPageState extends State<chatsPage> {
               Divider(
                 height: 10,
               ),
+
+
               ListTile(
+
                 leading: CircleAvatar(
+
                   backgroundColor: Colors.grey,
+
                   backgroundImage: AssetImage(
+
                     chatsData[i].avatar ?? 'images/noOne.jpg'
+
                   ),
+
                 ),
+
                 title: Text(chatsData[i].name,style: TextStyle(fontWeight: FontWeight.bold),),
+
                 subtitle: Text(
+
                   chatsData[i].massage,style: TextStyle(color: Colors.grey),
+
                 ),
+
                 trailing: Text(
                   chatsData[i].time, style: TextStyle(color: Colors.grey,fontSize: 13.0),
                 ),

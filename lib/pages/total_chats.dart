@@ -56,8 +56,6 @@ class _totalChatState extends State<totalChat> {
           showNip: false,
           child: const Text('Well, see for yourself'),
         ),
-
-
         Bubble(
           margin: const BubbleEdges.only(top: 10),
           alignment: Alignment.topRight,
@@ -86,9 +84,6 @@ class _totalChatState extends State<totalChat> {
           showNip: false,
           child: const Text('Well, see for yourself'),
         ),
-
-
-
         Bubble(
           margin: const BubbleEdges.only(top: 10),
           alignment: Alignment.topRight,
@@ -117,9 +112,6 @@ class _totalChatState extends State<totalChat> {
           showNip: false,
           child: const Text('Well, see for yourself'),
         ),
-
-
-
         Bubble(
           margin: const BubbleEdges.only(top: 10),
           alignment: Alignment.topRight,
@@ -148,8 +140,6 @@ class _totalChatState extends State<totalChat> {
           showNip: false,
           child: const Text('Well, see for yourself'),
         ),
-
-
         Bubble(
           margin: const BubbleEdges.only(top: 10),
           alignment: Alignment.topRight,
@@ -207,7 +197,6 @@ class _totalChatState extends State<totalChat> {
           showNip: false,
           child: const Text('Well, see for yourself'),
         ),
-
         Bubble(
           margin: BubbleEdges.only(top: 10),
           alignment: Alignment.center,

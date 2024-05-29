@@ -53,13 +53,9 @@ class _chatDetailState extends State<chatDetail> {
                         borderRadius: BorderRadius.circular(50),
                         borderSide: BorderSide(color: Colors.grey,width: 1)
                       ),
-
                       enabledBorder: OutlineInputBorder(
-
                         borderRadius: BorderRadius.circular(50),
-
                         borderSide: BorderSide(color: Colors.grey,width: 1)
-
                     ),
                       hintText: "type a message",
                     ),
