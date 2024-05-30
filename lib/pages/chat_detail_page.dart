@@ -37,17 +37,29 @@ class _chatDetailState extends State<chatDetail> {
       ),
       body: Column(
         children: [
+
           Expanded(child: totalChat()),
+
           Container(
+
             alignment: Alignment.bottomCenter,
+
             child: Padding(
+
               padding:  EdgeInsets.all(20.0),
+
               child: Row(
+
                 children: [
+
                   Flexible(
+
                     child: TextFormField(
+
                     minLines: 1,
+
                     maxLines: 5,
+
                     decoration: InputDecoration(
                       focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(50),
