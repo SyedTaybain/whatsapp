@@ -43,13 +43,22 @@ class _statusPageState extends State<statusPage> {
             ),),
           ),),
         Flexible(
+
+
           child: ListView.builder(
+
               itemCount: statusData.length,
+
               itemBuilder: (context , i)=>Column(
+
                 children: [
+
                   ListTile(
+
                     leading: CircleAvatar(
+
                       backgroundColor: Colors.grey,
+
                       backgroundImage: AssetImage(
                           statusData[i].avatar ?? 'images/noOne.jpg'
                       ),),
