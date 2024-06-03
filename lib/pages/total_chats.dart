@@ -22,9 +22,14 @@ class _totalChatState extends State<totalChat> {
       controller: _myScrollController,
       children: [
         Bubble(
+
+
           alignment: Alignment.center,
+
           color: const Color.fromRGBO(212, 234, 244, 1),
+
           child: const Text('TODAY',
+
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 11)),
         ),
