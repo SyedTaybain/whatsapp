@@ -202,11 +202,8 @@ class _totalChatState extends State<totalChat> {
           margin: BubbleEdges.only(top: 10),
 
           alignment: Alignment.center,
-
           nip: BubbleNip.no,
-
           color: Color.fromRGBO(212, 234, 244, 1.0),
-
           child: Text('TOMORROW', textAlign: TextAlign.center, style: TextStyle(fontSize: 11.0)),
         ),
 
