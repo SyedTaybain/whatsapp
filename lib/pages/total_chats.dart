@@ -37,7 +37,6 @@ class _totalChatState extends State<totalChat> {
           alignment: Alignment.topRight,
 
           nip: BubbleNip.rightTop,
-
           color: const Color.fromRGBO(225, 255, 199, 1),
           child: const Text('Hello, World!', textAlign: TextAlign.right),
         ),
