@@ -30,8 +30,6 @@ class _totalChatState extends State<totalChat> {
         ),
         Bu
         bble(
-
-
           margin: const BubbleEdges.only(top: 10),
           alignment: Alignment.topRight,
           nip: BubbleNip.rightTop,
