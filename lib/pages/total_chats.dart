@@ -29,9 +29,7 @@ class _totalChatState extends State<totalChat> {
               style: TextStyle(fontSize: 11)),
         ),
         Bubble(
-
           margin: const BubbleEdges.only(top: 10),
-
           alignment: Alignment.topRight,
 
           nip: BubbleNip.rightTop,
